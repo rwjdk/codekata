@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberToLcd.Gui", "NumberToLcd.Gui\NumberToLcs.Gui\NumberToLcd.Gui.csproj", "{8249D4E8-E797-419E-B164-C696D40FE3E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberToLcd.Logic", "NumberToLcd.Logic\NumberToLcd.Logic.csproj", "{AA412DF2-019E-433C-B1CF-DDF4590D54F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberToLcd.Test", "NumberToLcd.Test\NumberToLcd.Test.csproj", "{B246CDCC-1E4F-4FFE-A582-F9BB3233A712}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8249D4E8-E797-419E-B164-C696D40FE3E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8249D4E8-E797-419E-B164-C696D40FE3E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8249D4E8-E797-419E-B164-C696D40FE3E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8249D4E8-E797-419E-B164-C696D40FE3E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA412DF2-019E-433C-B1CF-DDF4590D54F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA412DF2-019E-433C-B1CF-DDF4590D54F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA412DF2-019E-433C-B1CF-DDF4590D54F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA412DF2-019E-433C-B1CF-DDF4590D54F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B246CDCC-1E4F-4FFE-A582-F9BB3233A712}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B246CDCC-1E4F-4FFE-A582-F9BB3233A712}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B246CDCC-1E4F-4FFE-A582-F9BB3233A712}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B246CDCC-1E4F-4FFE-A582-F9BB3233A712}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {05B06C7A-1368-4ACE-8539-7D0401EEC747}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://rwj.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = NumberToLcd.Test\\NumberToLcd.Test.csproj
+		SccProjectName1 = NumberToLcd.Test
+		SccLocalPath1 = NumberToLcd.Test
+		SccProjectUniqueName2 = NumberToLcd.Logic\\NumberToLcd.Logic.csproj
+		SccProjectName2 = NumberToLcd.Logic
+		SccLocalPath2 = NumberToLcd.Logic
+		SccProjectUniqueName3 = NumberToLcd.Gui\\NumberToLcs.Gui\\NumberToLcd.Gui.csproj
+		SccProjectName3 = NumberToLcd.Gui/NumberToLcs.Gui
+		SccLocalPath3 = NumberToLcd.Gui\\NumberToLcs.Gui
+	EndGlobalSection
+EndGlobal
