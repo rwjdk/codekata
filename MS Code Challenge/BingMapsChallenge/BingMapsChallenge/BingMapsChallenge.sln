@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BingMapsChallenge", "BingMapsChallenge\BingMapsChallenge.csproj", "{2F0A387C-1691-4532-BFBF-CF041012D224}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestChallenge", "UnitTestChallenge\UnitTestChallenge.csproj", "{2995748D-69C9-48CD-98E3-8D23036D6F24}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F0A387C-1691-4532-BFBF-CF041012D224}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F0A387C-1691-4532-BFBF-CF041012D224}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F0A387C-1691-4532-BFBF-CF041012D224}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F0A387C-1691-4532-BFBF-CF041012D224}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2995748D-69C9-48CD-98E3-8D23036D6F24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2995748D-69C9-48CD-98E3-8D23036D6F24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2995748D-69C9-48CD-98E3-8D23036D6F24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2995748D-69C9-48CD-98E3-8D23036D6F24}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

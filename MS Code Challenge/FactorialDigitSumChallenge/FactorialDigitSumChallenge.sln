@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactorialDigitSumChallenge", "FactorialDigitSumChallenge\FactorialDigitSumChallenge.csproj", "{283036A2-6558-45E3-BEC0-8806C9328E38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestChallenge", "UnitTestChallenge\UnitTestChallenge.csproj", "{7E0C663C-7D3C-49FF-8C80-C33E027F2003}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{283036A2-6558-45E3-BEC0-8806C9328E38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{283036A2-6558-45E3-BEC0-8806C9328E38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{283036A2-6558-45E3-BEC0-8806C9328E38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{283036A2-6558-45E3-BEC0-8806C9328E38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E0C663C-7D3C-49FF-8C80-C33E027F2003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E0C663C-7D3C-49FF-8C80-C33E027F2003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E0C663C-7D3C-49FF-8C80-C33E027F2003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E0C663C-7D3C-49FF-8C80-C33E027F2003}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
