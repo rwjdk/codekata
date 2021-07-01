@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27004.2002
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tennis.Console", "Tennis\Tennis.Console.csproj", "{BD7B8F31-B59B-4BDC-B59E-EFE9FF11152A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tennis.Console", "Tennis.Console\Tennis.Console.csproj", "{BD7B8F31-B59B-4BDC-B59E-EFE9FF11152A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tennis.Test", "Tennis.Test\Tennis.Test.csproj", "{D1849A38-D6E5-436F-BFA1-156CABC97D1F}"
 EndProject
@@ -39,23 +39,5 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BBFEA812-957C-4126-B3EB-03F33F56A070}
-	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 5
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://dev.azure.com/rwj
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = Tennis.Test\\Tennis.Test.csproj
-		SccProjectName1 = Tennis.Test
-		SccLocalPath1 = Tennis.Test
-		SccProjectUniqueName2 = Tennis.Logic\\Tennis.Logic.csproj
-		SccProjectName2 = Tennis.Logic
-		SccLocalPath2 = Tennis.Logic
-		SccProjectUniqueName3 = Tennis.WinForm\\Tennis.WinForm.csproj
-		SccProjectName3 = Tennis.WinForm
-		SccLocalPath3 = Tennis.WinForm
-		SccProjectUniqueName4 = Tennis\\Tennis.Console.csproj
-		SccProjectName4 = Tennis
-		SccLocalPath4 = Tennis
 	EndGlobalSection
 EndGlobal
