@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.168
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstGame", "MyFirstGame\MyFirstGame.csproj", "{909B0376-328E-45BB-BD92-D8101380662E}"
 EndProject
@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericGameLogic", "..\Gene
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TennisGame", "..\TennisGame\TennisGame\TennisGame.csproj", "{814D64E4-C472-44CD-9F96-E117CA0AA8A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tennis.Logic", "..\..\Tennis\Tennis.Logic\Tennis.Logic.csproj", "{49D66BDD-62C5-408C-BFD8-1C91DD6DEBD2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tennis.Logic", "..\Tennis.Logic\Tennis.Logic.csproj", "{49D66BDD-62C5-408C-BFD8-1C91DD6DEBD2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,23 +55,5 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {669AD08D-69D4-41AE-A26A-C67743E123AC}
-	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 5
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://dev.azure.com/rwj
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = MyFirstGame\\MyFirstGame.csproj
-		SccProjectName1 = MyFirstGame
-		SccLocalPath1 = MyFirstGame
-		SccProjectUniqueName2 = ..\\GenericGameLogic\\GenericGameLogic.csproj
-		SccProjectName2 = ../GenericGameLogic
-		SccLocalPath2 = ..\\GenericGameLogic
-		SccProjectUniqueName3 = ..\\TennisGame\\TennisGame\\TennisGame.csproj
-		SccProjectName3 = ../TennisGame/TennisGame
-		SccLocalPath3 = ..\\TennisGame\\TennisGame
-		SccProjectUniqueName4 = ..\\..\\Tennis\\Tennis.Logic\\Tennis.Logic.csproj
-		SccProjectName4 = ../../Tennis/Tennis.Logic
-		SccLocalPath4 = ..\\..\\Tennis\\Tennis.Logic
 	EndGlobalSection
 EndGlobal
