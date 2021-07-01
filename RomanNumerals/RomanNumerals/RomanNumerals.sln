@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2008
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanNumerals", "RomanNumerals\RomanNumerals.csproj", "{DCBA4B6C-EAF6-4785-B0DD-54720E5247AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanNumerals.Test", "..\RomanNumerals.Test\RomanNumerals.Test.csproj", "{623012DC-3EE0-445D-8752-67C75BB2AB46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanNumerals.Logic", "..\RomanNumerals.Logic\RomanNumerals.Logic.csproj", "{EACDAD10-E7A3-48B5-8910-8E5DA627F500}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCBA4B6C-EAF6-4785-B0DD-54720E5247AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCBA4B6C-EAF6-4785-B0DD-54720E5247AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCBA4B6C-EAF6-4785-B0DD-54720E5247AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCBA4B6C-EAF6-4785-B0DD-54720E5247AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{623012DC-3EE0-445D-8752-67C75BB2AB46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{623012DC-3EE0-445D-8752-67C75BB2AB46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{623012DC-3EE0-445D-8752-67C75BB2AB46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{623012DC-3EE0-445D-8752-67C75BB2AB46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EACDAD10-E7A3-48B5-8910-8E5DA627F500}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EACDAD10-E7A3-48B5-8910-8E5DA627F500}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EACDAD10-E7A3-48B5-8910-8E5DA627F500}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EACDAD10-E7A3-48B5-8910-8E5DA627F500}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {478FD0EB-E40D-4764-A742-8093C21C0D10}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://rwj.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ..\\RomanNumerals.Logic\\RomanNumerals.Logic.csproj
+		SccProjectName1 = ../RomanNumerals.Logic
+		SccLocalPath1 = ..\\RomanNumerals.Logic
+		SccProjectUniqueName2 = ..\\RomanNumerals.Test\\RomanNumerals.Test.csproj
+		SccProjectName2 = ../RomanNumerals.Test
+		SccLocalPath2 = ..\\RomanNumerals.Test
+		SccProjectUniqueName3 = RomanNumerals\\RomanNumerals.csproj
+		SccProjectName3 = RomanNumerals
+		SccLocalPath3 = RomanNumerals
+	EndGlobalSection
+EndGlobal

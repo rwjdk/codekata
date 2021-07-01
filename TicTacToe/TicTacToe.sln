@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logic", "Logic\Logic.csproj", "{6BE1C391-0046-41DF-BA96-9D0F0DFA1783}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormGui", "WinFormGui\WinFormGui.csproj", "{B100D87E-6E71-475F-AE96-7451279FBA44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{28A73447-E5A9-42E0-BF84-A4060BC72462}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Communication", "Communication\Communication.csproj", "{3725C057-3FB0-4A5A-94AA-FE7228370F80}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BE1C391-0046-41DF-BA96-9D0F0DFA1783}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BE1C391-0046-41DF-BA96-9D0F0DFA1783}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BE1C391-0046-41DF-BA96-9D0F0DFA1783}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BE1C391-0046-41DF-BA96-9D0F0DFA1783}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B100D87E-6E71-475F-AE96-7451279FBA44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B100D87E-6E71-475F-AE96-7451279FBA44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B100D87E-6E71-475F-AE96-7451279FBA44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B100D87E-6E71-475F-AE96-7451279FBA44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28A73447-E5A9-42E0-BF84-A4060BC72462}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28A73447-E5A9-42E0-BF84-A4060BC72462}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28A73447-E5A9-42E0-BF84-A4060BC72462}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28A73447-E5A9-42E0-BF84-A4060BC72462}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3725C057-3FB0-4A5A-94AA-FE7228370F80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3725C057-3FB0-4A5A-94AA-FE7228370F80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3725C057-3FB0-4A5A-94AA-FE7228370F80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3725C057-3FB0-4A5A-94AA-FE7228370F80}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CAD06C7B-7DF5-4A68-983B-BFA9DD5B4901}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://rwj.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Logic\\Logic.csproj
+		SccProjectName1 = Logic
+		SccLocalPath1 = Logic
+		SccProjectUniqueName2 = WinFormGui\\WinFormGui.csproj
+		SccProjectName2 = WinFormGui
+		SccLocalPath2 = WinFormGui
+		SccProjectUniqueName3 = Tests\\Tests.csproj
+		SccProjectName3 = Tests
+		SccLocalPath3 = Tests
+		SccProjectUniqueName4 = Communication\\Communication.csproj
+		SccProjectName4 = Communication
+		SccLocalPath4 = Communication
+	EndGlobalSection
+EndGlobal
