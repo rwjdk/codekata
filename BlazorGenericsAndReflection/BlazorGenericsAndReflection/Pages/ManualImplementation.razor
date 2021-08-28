@@ -1,0 +1,24 @@
+﻿@page "/ManualImplementation"
+@using BlazorGenericsAndReflection.BusinessLogic.Services.FeatureImplementations
+<h3>ManualImplementation</h3>
+
+<h2>@_first.Name</h2>
+<span>Number: <strong>@_first.Output.NumberValue</strong> String: <strong>@_first.Output.StringValue</strong> <input value="Press Me!" type="button" @onclick="@_first.ActionOnButtonClick"></span>
+
+
+<h2>@_second.Name</h2>
+<span>Number: <strong>@_second.Output.NumberValue</strong> String: <strong>@_second.Output.StringValue</strong> <input value="Press Me!" type="button" @onclick="@_second.ActionOnButtonClick"></span>
+
+
+@code {
+    MyFirstImplementation _first;
+    MySecondImplementation _second;
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        _first = new MyFirstImplementation();
+        _second = new MySecondImplementation();
+    }
+
+}

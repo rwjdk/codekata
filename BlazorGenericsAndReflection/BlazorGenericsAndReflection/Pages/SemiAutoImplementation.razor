@@ -1,0 +1,22 @@
+﻿@page "/SemiAutoImplementation"
+@using BlazorGenericsAndReflection.BusinessLogic.Interface
+@using BlazorGenericsAndReflection.BusinessLogic.Services.FeatureImplementations
+<h3>SemiAutoImplementation</h3>
+
+@foreach (var listItem in _list)
+{
+    <h2>@listItem.Name</h2>
+    <span>Number: <strong>@listItem.Output.NumberValue</strong> String: <strong>@listItem.Output.StringValue</strong> <input value="Press Me!" type="button" @onclick="@listItem.ActionOnButtonClick"></span>
+}
+
+@code {
+    List<IFeature> _list = new List<IFeature>();
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        _list.Add(new MyFirstImplementation());
+        _list.Add(new MySecondImplementation());
+    }
+
+}
