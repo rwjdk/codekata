@@ -4,7 +4,7 @@ using BlazorGenericsAndReflection.BusinessLogic.Model;
 
 namespace BlazorGenericsAndReflection.BusinessLogic.Services.FeatureImplementations
 {
-    public class MyFirstImplementation : IFeature
+    public class MyFirstImplementation : IFeature<IFeatureOutput>
     {
         public string Name => "First";
         public IFeatureOutput Output { get; }

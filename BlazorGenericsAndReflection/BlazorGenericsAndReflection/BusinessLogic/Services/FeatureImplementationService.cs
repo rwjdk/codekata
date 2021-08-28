@@ -8,16 +8,17 @@ namespace BlazorGenericsAndReflection.BusinessLogic.Services
 {
     public class FeatureImplementationService
     {
-        public List<IFeature> GetFeatureImplementationsViaReflection()
+        public List<IFeature<IFeatureOutput>> GetFeatureImplementationsViaReflection()
         {
-            var result = new List<IFeature>();
+            var result = new List<IFeature<IFeatureOutput>>();
 
-            var interfaceType = typeof(IFeature);
-            var types = Assembly.GetCallingAssembly().GetTypes();
-            var implementations = types.Where(x => x.GetInterface(interfaceType.FullName) == interfaceType && x.IsClass && !x.IsInterface && !x.IsAbstract).ToList();
-            foreach (var implementation in implementations)
+            var allTypes = Assembly.GetCallingAssembly().GetTypes();
+            foreach (var type in allTypes)
             {
-                result.Add((IFeature)Activator.CreateInstance(implementation));
+                if (type.GetInterfaces().Any(i => i.IsGenericType && i.GetGenericTypeDefinition() == typeof(IFeature<>)))
+                {
+                    result.Add((IFeature<IFeatureOutput>)Activator.CreateInstance(type));
+                }
             }
             return result;
         }
