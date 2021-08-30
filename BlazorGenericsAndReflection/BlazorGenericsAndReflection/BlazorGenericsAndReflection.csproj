@@ -21,6 +21,11 @@
 
   <ItemGroup>
     <_ContentIncludedByDefault Remove="Pages\AutoImplementation.razor" />
+    <_ContentIncludedByDefault Remove="Pages\SharedControllerImplementation.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Pages\SharedControllerImplementation.razor" />
   </ItemGroup>
 
 </Project>
